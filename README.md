@@ -1,5 +1,3 @@
-# ⚡ Professional Portfolio
-
 ---
 
 ## 📋 Executive Summary
