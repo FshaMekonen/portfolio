@@ -1,12 +1,5 @@
 # ⚡ Professional Portfolio
 
-### Submitted by: **Fsha Mekonen**
-**Position Applied For:** Full Stack Developer Intern  
-**Academic Background:** B.Sc. in Information Technology, Axum University (Expected Graduation: 2027)  
-**Location:** Axum, Tigray, Ethiopia  
-**Contact:** [fishmekonenn@gmail.com](mailto:fishmekonenn@gmail.com) | [+251 943 667 723](tel:+251943667723)  
-**GitHub Profile:** [github.com/Fshamekonen](https://github.com/Fshamekonen)  
-
 ---
 
 ## 📋 Executive Summary
@@ -149,16 +142,15 @@ Open the VS Code terminal (`Ctrl + ~`) and start a server:
 
 ---
 
-## Developed by
+## 👤 Submitted By
 
-**Fsha Mekonen**
+### **Fsha Mekonen**
 
-Information Technology Student
-
-Aksum University
-
-## Contact
-
-- **Email:** [fishmekonenn@gmail.com](mailto:fishmekonenn@gmail.com)
-- **GitHub:** [https://github.com/FshaMekonen](https://github.com/FshaMekonen)
-
+| Field | Details |
+|---|---|
+| **Position Applied For** | Full Stack Developer Intern |
+| **Academic Background** | B.Sc. in Information Technology, Axum University (Expected Graduation: 2027) |
+| **Location** | Axum, Tigray, Ethiopia |
+| **Email** | [fishmekonenn@gmail.com](mailto:fishmekonenn@gmail.com) |
+| **Phone** | [+251 943 667 723](tel:+251943667723) |
+| **GitHub** | [github.com/Fshamekonen](https://github.com/Fshamekonen) |
