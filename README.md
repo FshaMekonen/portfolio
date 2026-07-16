@@ -69,9 +69,7 @@ portfolio/
 │   └── animation.js       # Viewport observer, statistics counters, progress bars
 └── assets/
     ├── resume.pdf         # Default placeholder PDF CV
-    ├── images/            # High-resolution generated mockup banners
-    │   ├── house_rental.png
-    │   └── student_management.png
+    ├── images/            # Project-related image assets
     ├── icons/             # Optional vector assets directory (empty; SVGs are inline)
     └── fonts/             # Local typography fonts (falls back to Google Fonts CDN)
 ```
@@ -86,15 +84,11 @@ The portfolio showcases two principal academic projects developed during the dev
 * **Description:** A desktop application designed for property managers to handle property listings, tenant details, payment records, and maintain transactional CRUD states.
 * **Key Features:** Desktop Swing GUI, property occupancy registers, payment histories, search query processing.
 * **Repository Link:** [FshaMekonen/House-rental-managment-system](https://github.com/FshaMekonen/House-rental-managment-system)
-* **Preview Mockup:**
-  ![House Rental Management System Mockup](./assets/images/house_rental.png)
 
 ### 2. Student Management System (Web - HTML, CSS, PHP & MySQL)
 * **Description:** A web application for registrar administrators to handle student enrollment, grade logs, course mappings, and administrative authentication.
 * **Key Features:** Secure session logins, grade calculations, relational database normalization.
 * **Repository Link:** [FshaMekonen/Student-managment-system](https://github.com/FshaMekonen/Student-managment-system)
-* **Preview Mockup:**
-  ![Student Management System Mockup](./assets/images/student_management.png)
 
 ---
 
