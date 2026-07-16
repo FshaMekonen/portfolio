@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Fsha Mekonen | Aspiring Full Stack Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Fsha Mekonen, an IT Student at Axum University and Aspiring Full Stack Developer. Discover projects, technical skills, achievements, and contact information.">
+  <meta name="keywords" content="Fsha Mekonen, Full Stack Developer, IT Student, Axum University, Software Engineer Portfolio, Web Developer Ethiopia, Java, PHP, MySQL, CSS3, JavaScript">
+  <meta name="author" content="Fsha Mekonen">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Fshamekonen">
+  <meta property="og:title" content="Fsha Mekonen | Aspiring Full Stack Developer Portfolio">
+  <meta property="og:description" content="Discover academic projects, front-end and back-end skills, and certifications of Fsha Mekonen, IT student at Axum University.">
+  <meta property="og:image" content="assets/images/house_rental.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://github.com/Fshamekonen">
+  <meta property="twitter:title" content="Fsha Mekonen | Aspiring Full Stack Developer Portfolio">
+  <meta property="twitter:description" content="Discover academic projects, front-end and back-end skills, and certifications of Fsha Mekonen, IT student at Axum University.">
+  <meta property="twitter:image" content="assets/images/house_rental.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Theme Script (Loaded in head to prevent theme flashing) -->
+  <script src="js/theme.js"></script>
+</head>
+<body>
+
+  <!-- 1. Preloader -->
+  <div id="preloader" role="status" aria-label="Loading page">
+    <div class="preloader-logo">
+      <div class="preloader-circle"></div>
+      <span style="font-family: var(--font-headings); font-weight: 700; font-size: 1.25rem; letter-spacing: 0.1em; color: var(--text-primary);">FSHA.DEV</span>
+    </div>
+  </div>
+
+  <!-- 2. Fixed Header / Navbar -->
+  <header id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Fsha Mekonen Homepage">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        <span>Welcome To My Portfolio</span>
+      </a>
+
+      <!-- Navigation links drawer -->
+      <nav id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher & Mobile Menu Trigger -->
+      <div class="nav-controls">
+        <button class="theme-toggle-btn" aria-label="Toggle theme">
+          <span class="theme-icon">
+            <!-- Icon loaded dynamically by theme.js -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </span>
+        </button>
+
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Home (Hero Section) -->
+  <section id="home">
+    <div class="hero-background">
+      <div class="glowing-blob blob-1"></div>
+      <div class="glowing-blob blob-2"></div>
+      <div class="glowing-blob blob-3"></div>
+    </div>
+    
+    <div class="container hero-wrapper">
+      <div class="hero-content reveal reveal-left">
+        <div class="hero-hello">
+          <span aria-hidden="true">👋</span> Hello World, I am
+        </div>
+        <h1 class="hero-title">
+          <span class="name-gradient">Fsha Mekonen</span>
+        </h1>
+        <div class="hero-headline">
+          <span class="typewrite" data-period="2000" data-type='["Information Technology Student", "Aspiring Full Stack Developer", "Software Engineering Enthusiast"]'>
+            <span class="txt">Information Technology Student</span>
+          </span>
+        </div>
+        <p class="hero-desc">
+          I am a passionate tech student at Axum University specializing in full-stack web and desktop applications. I design responsive layouts and craft clean, relational backend code.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Hire Me
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </a>
+          <div class="cv-buttons-wrapper" style="display: flex; gap: 0.5rem; align-items: center;">
+            <a href="assets/resume.pdf" download="Fsha_Mekonen_Resume.pdf" id="download-cv-btn" class="btn btn-secondary">
+              Download CV
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+            <button id="upload-cv-btn" class="btn btn-secondary btn-icon-only" aria-label="Upload custom CV" title="Upload custom CV (PDF)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+            </button>
+            <button id="remove-cv-btn" class="btn btn-secondary btn-icon-only" aria-label="Reset default CV" title="Reset default CV" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <input type="file" id="cv-file-input" accept="application/pdf" style="display: none;">
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-right">
+        <div class="avatar-wrapper">
+          <div class="avatar-border" aria-hidden="true"></div>
+          <div class="avatar-shape" id="avatar-container">
+            <!-- Default SVG avatar -->
+            <svg id="default-avatar-svg" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M64 16C46.3 16 32 30.3 32 48s14.3 32 32 32 32-14.3 32-32S81.7 16 64 16zm0 46c-7.7 0-14-6.3-14-14s6.3-14 14-14 14 6.3 14 14-6.3 14-14 14zm35 34c-6.1-9.6-16.7-16-29-16s-22.9 6.4-29 16c-8 12.6-1 29.3 14 29.3h30c15 0 22-16.7 14-29.3z" />
+            </svg>
+            <img id="uploaded-avatar-img" src="" alt="Fsha Mekonen Profile Picture" style="display: none; width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <!-- Photo source picker -->
+          <div class="avatar-picker-wrapper" id="avatar-picker-wrapper">
+            <button id="avatar-edit-btn" class="avatar-edit-btn" aria-label="Change profile photo" aria-expanded="false" aria-haspopup="true" title="Change profile photo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            </button>
+            <!-- Dropdown menu: file or camera -->
+            <div id="avatar-source-menu" class="avatar-source-menu" role="menu" aria-label="Choose photo source" hidden>
+              <button id="avatar-from-file" class="avatar-source-option" role="menuitem">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                Browse Files
+              </button>
+              <button id="avatar-from-camera" class="avatar-source-option" role="menuitem">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                Take a Photo
+              </button>
+            </div>
+          </div>
+          <button id="avatar-remove-btn" class="avatar-remove-btn" aria-label="Remove profile photo" title="Remove profile photo" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+          <!-- Hidden file inputs -->
+          <input type="file" id="avatar-file-input" accept="image/*" style="display: none;">
+          <input type="file" id="avatar-camera-input" accept="image/*" capture="user" style="display: none;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator Mouse -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down to About Section">
+      <span>Scroll Down</span>
+      <span class="scroll-indicator-mouse">
+        <span class="scroll-indicator-wheel"></span>
+      </span>
+    </a>
+  </section>
+
+  <!-- 4. About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-title-wrapper reveal reveal-up">
+        <span class="section-subtitle">Get To Know Me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Visual/Left Column -->
+        <div class="glass-panel reveal reveal-left hover-card" style="text-align: center;">
+          <div class="about-edu-highlight">
+            <div class="edu-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+            </div>
+            <div class="edu-highlight-content" style="text-align: left;">
+              <h4>Axum University</h4>
+              <p>Bachelor of Science in Information Technology</p>
+              <p style="font-size: 0.8rem; color: var(--accent-1); font-weight: 600;">2023 - 2027 (Expected)</p>
+            </div>
+          </div>
+          
+          <div class="about-objective-card" style="margin-top: 2rem;">
+            <p>"I enjoy designing modern, responsive, and user-friendly web applications while continuously improving my technical and problem-solving skills."</p>
+          </div>
+
+          <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--text-muted);">
+            Status: Completed Third Year
+          </p>
+        </div>
+
+        <!-- Details/Right Column -->
+        <div class="about-details reveal reveal-right">
+          <h3 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Academic Biography</h3>
+          <p class="about-bio">
+            I am an Information Technology student at Axum University with a strong passion for software engineering and full-stack web development. I am seeking opportunities to apply my knowledge, gain practical experience, and contribute to real-world software projects through internships.
+          </p>
+          
+          <!-- Statistics Numbers Counter Grid -->
+          <div class="about-stats">
+            <div class="glass-panel stat-card hover-card">
+              <div class="stat-number" data-target="3">0+</div>
+              <div class="stat-label">Years of IT Studies</div>
+            </div>
+            <div class="glass-panel stat-card hover-card">
+              <div class="stat-number" data-target="3.6">0+</div>
+              <div class="stat-label">Academic GPA</div>
+            </div>
+            <div class="glass-panel stat-card hover-card">
+              <div class="stat-number" data-target="2">0+</div>
+              <div class="stat-label">Academic Projects</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-title-wrapper reveal reveal-up">
+        <span class="section-subtitle">Acoustic Capabilities</span>
+        <h2 class="section-title">My Technical Stack</h2>
+      </div>
+
+      <!-- Skills tabs navigation filter -->
+      <div class="skills-filters reveal reveal-up delay-1">
+        <button class="filter-btn active" data-filter="all">All Stack</button>
+        <button class="filter-btn" data-filter="frontend">Front-End</button>
+        <button class="filter-btn" data-filter="backend">Back-End</button>
+        <button class="filter-btn" data-filter="database">Database</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-grid">
+        
+        <!-- Frontend - HTML5 -->
+        <div class="skill-card-wrapper frontend reveal reveal-up">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>HTML5</h4>
+                <span>Front-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Core Markup</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="95%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frontend - CSS3 -->
+        <div class="skill-card-wrapper frontend reveal reveal-up delay-1">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>CSS3</h4>
+                <span>Front-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Layout & Styling</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frontend - JavaScript -->
+        <div class="skill-card-wrapper frontend reveal reveal-up delay-2">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>JavaScript</h4>
+                <span>Front-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Vanilla JS Logic</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend - Java -->
+        <div class="skill-card-wrapper backend reveal reveal-up">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>Java</h4>
+                <span>Back-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>OOP & Desktops</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend - Python -->
+        <div class="skill-card-wrapper backend reveal reveal-up delay-1">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>Python</h4>
+                <span>Back-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Scripting & Logic</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend - PHP -->
+        <div class="skill-card-wrapper backend reveal reveal-up delay-2">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>PHP</h4>
+                <span>Back-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Web Services</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend - C++ -->
+        <div class="skill-card-wrapper backend reveal reveal-up delay-3">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div class="skill-title">
+                <h4>C++</h4>
+                <span>Back-End</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Systems Coding</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database - MySQL -->
+        <div class="skill-card-wrapper database reveal reveal-up">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>MySQL</h4>
+                <span>Database</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>RDBMS Relations</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database - PostgreSQL -->
+        <div class="skill-card-wrapper database reveal reveal-up delay-1">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>PostgreSQL</h4>
+                <span>Database</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Advanced SQL</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools - Git -->
+        <div class="skill-card-wrapper tools reveal reveal-up">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M18 15V9a4 4 0 0 0-4-4H9M6 9v6"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>Git & GitHub</h4>
+                <span>Tools</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Version Control</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools - VS Code -->
+        <div class="skill-card-wrapper tools reveal reveal-up delay-1">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div class="skill-title">
+                <h4>VS Code</h4>
+                <span>Tools</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Development IDE</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools - XAMPP -->
+        <div class="skill-card-wrapper tools reveal reveal-up delay-2">
+          <div class="glass-panel skill-card hover-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              </div>
+              <div class="skill-title">
+                <h4>XAMPP</h4>
+                <span>Tools</span>
+              </div>
+            </div>
+            <div class="skill-progress-container">
+              <div class="skill-progress-label">
+                <span>Local Server</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-bar" data-progress="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-title-wrapper reveal reveal-up">
+        <span class="section-subtitle">Academic Portfolios</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <!-- Filters navigation tab chips -->
+      <div class="project-filters reveal reveal-up delay-1">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="desktop-java">Desktop (Java)</button>
+        <button class="filter-btn" data-filter="web-php">Web (PHP)</button>
+      </div>
+
+      <!-- Projects Grid Layout -->
+      <div class="projects-grid">
+        
+        <!-- Project 1: House Rental System -->
+        <div class="project-card-wrapper desktop-java reveal reveal-up">
+          <article class="glass-panel project-card hover-card">
+            <div class="project-info">
+              <div class="project-tech-badges">
+                <span class="tech-badge">Java</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Swing GUI</span>
+              </div>
+              <h3 class="project-title-h">House Rental Management System</h3>
+              <p class="project-desc-p">
+                House Rental Management System is a modern platform for seamless property rental management. It empowers tenants, owners, and administrators with secure, smart, and efficient management tools. Featuring multilingual support, real-time communication, and advanced security for a professional rental experience.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/FshaMekonen/House-rental-managment-system" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Source Code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Project 2: Student Management System -->
+        <div class="project-card-wrapper web-php reveal reveal-up delay-1">
+          <article class="glass-panel project-card hover-card">
+            <div class="project-info">
+              <div class="project-tech-badges">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+              <h3 class="project-title-h">Student Management System</h3>
+              <p class="project-desc-p">
+                A fully responsive web application helping university administrations catalog student files, grades indexes, and courses logs. Features robust admin validation mechanisms, role authentication, and fully secure, normalized SQL configurations.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/FshaMekonen/Student-managment-system" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Source Code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Education Timeline & Achievements Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-title-wrapper reveal reveal-up">
+        <span class="section-subtitle">Milestones & Certifications</span>
+        <h2 class="section-title">Education & Achievements</h2>
+      </div>
+
+      <div class="timeline-section-wrapper">
+        <!-- Left Side: Education Timeline -->
+        <div class="reveal reveal-left">
+          <h3 style="font-size: 1.75rem; margin-bottom: 2.5rem; display: flex; align-items: center; gap: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+            Timeline Layout
+          </h3>
+          
+          <div class="timeline-container">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-header">
+                <div class="timeline-title">
+                  <h3>Bachelor of Science in Information Technology</h3>
+                  <span class="timeline-inst">Axum University</span>
+                </div>
+                <div class="timeline-date">2023 - 2027 (Expected)</div>
+              </div>
+              <div class="timeline-content">
+                <p>Acquiring strong fundamentals in computing, object-oriented concepts, structural databases, algorithms, and modular front-end web tools.</p>
+                <ul class="timeline-highlights">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <strong>Completed Third Year:</strong> Maintained high academic standing (GPA 3.6+)
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <strong>Course Highlights:</strong> OOP in Java, Database Management Systems, Web Programming II, Algorithms, Network Administration
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Achievements Column -->
+        <div class="reveal reveal-right">
+          <h3 style="font-size: 1.75rem; margin-bottom: 2.5rem; display: flex; align-items: center; gap: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Achievements
+          </h3>
+
+          <div class="achieve-container">
+            <!-- Achievement Item: Published on GitHub -->
+            <div class="glass-panel achieve-card hover-card">
+              <div class="achieve-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <div class="achieve-content">
+                <h4>Published 2+ Projects on GitHub</h4>
+                <p>Shared database solutions and PHP web projects with the open-source community on <a href="https://github.com/Fshamekonen" target="_blank" rel="noopener" style="color: var(--accent-1); font-weight: 600;">@Fshamekonen</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-title-wrapper reveal reveal-up">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Cards / Left -->
+        <div class="contact-cards reveal reveal-left">
+          
+          <!-- Email Card -->
+          <div class="glass-panel contact-card-item hover-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="contact-card-text">
+              <p>Email</p>
+              <p><a href="mailto:fishmekonenn@gmail.com">fishmekonenn@gmail.com</a></p>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="glass-panel contact-card-item hover-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="contact-card-text">
+              <p>Phone</p>
+              <p><a href="tel:+251943667723">+251 943 667 723</a></p>
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="glass-panel contact-card-item hover-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div class="contact-card-text">
+              <p>GitHub</p>
+              <p><a href="https://github.com/Fshamekonen" target="_blank" rel="noopener">github.com/Fshamekonen</a></p>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="glass-panel contact-card-item hover-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div class="contact-card-text">
+              <p>Location</p>
+              <p>Axum, Tigray, Ethiopia</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact Form / Right -->
+        <div class="glass-panel reveal reveal-right">
+          <form id="contact-form" class="contact-form-panel" novalidate>
+            <div class="form-grid">
+              
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" class="form-input" placeholder="example@email.com" required>
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group full-width">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="Internship Application / Professional Inquiry" required>
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group full-width">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+                <span class="error-msg" aria-live="polite"></span>
+              </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              Send Message
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            
+          </a>
+          <p class="footer-desc">
+            Information Technology student passionate about full-stack development, creating scalable applications, and solving real-world problems through technology.
+          </p>
+          <div class="footer-socials">
+            <a href="https://github.com/Fshamekonen" class="social-link" target="_blank" rel="noopener" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://github.com/Fshamekonen" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-link-group">
+            <h4>Quick Navigation</h4>
+            <ul class="footer-link-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-group">
+            <h4>Sitemap Help</h4>
+            <ul class="footer-link-list">
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="assets/resume.pdf" download="Fsha_Mekonen_Resume.pdf" id="footer-cv-btn">Resume PDF</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fsha Mekonen. All rights reserved. Created for Full Stack Developer Internship.</p>
+        <p>Location: Axum, Tigray, Ethiopia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 10. Live WebRTC Camera Capture Modal -->
+  <div id="camera-modal" class="camera-modal" hidden>
+    <div class="camera-modal-content glass-panel">
+      <h3 class="camera-modal-title">Take Profile Photo</h3>
+      <div class="camera-stream-wrapper">
+        <video id="camera-video" autoplay playsinline></video>
+        <canvas id="camera-canvas" style="display: none;"></canvas>
+      </div>
+      <div class="camera-modal-actions">
+        <button id="camera-capture-btn" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+          Capture
+        </button>
+        <button id="camera-close-btn" class="btn btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11. Back To Top Widget Toggle -->
+  <button id="back-to-top" aria-label="Back to Top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- 11. Script Files -->
+  <script src="js/typing.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

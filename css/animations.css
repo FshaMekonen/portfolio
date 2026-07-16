@@ -1,0 +1,211 @@
+/**
+ * animations.css
+ * Transition classes, hover animations, scroll reveal triggers, and keyframe definitions.
+ */
+
+/* --- 1. Typing Cursor Animation --- */
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 0.8s infinite;
+  color: var(--accent-1);
+  font-weight: 300;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* --- 2. Scroll Reveal Utilities --- */
+.reveal {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  will-change: transform, opacity;
+}
+
+.reveal.reveal-up {
+  transform: translateY(40px);
+}
+
+.reveal.reveal-down {
+  transform: translateY(-40px);
+}
+
+.reveal.reveal-left {
+  transform: translateX(-40px);
+}
+
+.reveal.reveal-right {
+  transform: translateX(40px);
+}
+
+.reveal.reveal-zoom {
+  transform: scale(0.9);
+}
+
+/* Activated States */
+.reveal.active {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}
+
+/* Sequential Delays (for children inside grid reveals) */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+
+/* --- 3. Hero Blob Glow Animations --- */
+.glowing-blob {
+  animation: floatBlob 12s ease-in-out infinite alternate;
+}
+
+.blob-2 {
+  animation-delay: -3s;
+  animation-duration: 15s;
+}
+
+.blob-3 {
+  animation-delay: -6s;
+  animation-duration: 18s;
+}
+
+@keyframes floatBlob {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.95);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+/* --- 4. Mouse Scroll Down Indicator --- */
+.scroll-indicator-mouse {
+  width: 24px;
+  height: 40px;
+  border: 2px solid var(--text-muted);
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.scroll-indicator-wheel {
+  width: 4px;
+  height: 8px;
+  background-color: var(--accent-1);
+  border-radius: 2px;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollWheel 1.6s ease-in-out infinite;
+}
+
+@keyframes scrollWheel {
+  0% {
+    top: 6px;
+    opacity: 1;
+  }
+  50% {
+    top: 18px;
+    opacity: 0;
+  }
+  100% {
+    top: 6px;
+    opacity: 0;
+  }
+}
+
+/* --- 5. Custom Loading Spinner --- */
+.loader-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 0.8s ease-in-out infinite;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* --- 6. Custom Toast Entry/Exit --- */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toast {
+  animation: slideInRight 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.toast.toast-exit {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.35s ease-in;
+}
+
+/* --- 7. Button Hover Micro-animations --- */
+.btn-primary {
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease, background 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -10px var(--accent-1-glow);
+}
+
+.btn-primary:active {
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease, border-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-3px);
+}
+
+.btn-secondary:active {
+  transform: translateY(-1px);
+}
+
+/* --- 8. Hover Cards & Links --- */
+.hover-card {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-1-border);
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover Grid Item Slide */
+.social-link {
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.25s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  color: var(--accent-1);
+}
