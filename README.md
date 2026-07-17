@@ -2,7 +2,7 @@
 
 ## 📋 Executive Summary
 
-This project is a modern, high-end, fully responsive developer portfolio website built strictly in accordance with front-end submission guidelines. It showcases core engineering proficiencies using **only native web technologies** — HTML5, CSS3, and Vanilla JavaScript — without using React, Vue, Angular, Bootstrap, Tailwind CSS, or any other external library.
+This project is a modern, high-end, fully responsive developer portfolio website built strictly in accordance with front-end submission guidelines. It showcases core engineering proficiencies using **only native web technologies** — HTML5, CSS3, and Vanilla JavaScript — without any external frameworks or libraries.
 
 The application features advanced glassmorphism styling, scroll-driven micro-animations, real-time client-side form validation, and complete local state persistence via browser storage. It showcases a premium user interface designed to match modern software industry standards.
 
