@@ -2,50 +2,22 @@
 
 ## 📋 Executive Summary
 
-This project is a modern, high-end, fully responsive developer portfolio website built strictly in accordance with front-end submission guidelines. It showcases core engineering proficiencies using **only native web technologies**—HTML5, CSS3, and Vanilla JavaScript—without using React, Vue, Angular, Bootstrap, Tailwind CSS, or any other external library.
+This project is a modern, high-end, fully responsive developer portfolio website built strictly in accordance with front-end submission guidelines. It showcases core engineering proficiencies using **only native web technologies** — HTML5, CSS3, and Vanilla JavaScript — without using React, Vue, Angular, Bootstrap, Tailwind CSS, or any other external library.
 
-The application features advanced glassmorphism styling, scroll-driven micro-animations, real-time client-side form validation, and **complete local state persistence** via browser storage. It showcases a premium user interface designed to match modern software industry standards.
-
----
-
-## �️ Technical Skills
-
-- **Frontend:** HTML5, CSS3, JavaScript, Responsive Web Design
-- **Backend:** PHP, RESTful web concepts
-- **Database:** MySQL, data modeling, CRUD operations
-- **Programming:** Java, object-oriented programming basics
-- **Tools:** Git, GitHub, VS Code, Live Server
-- **Concepts:** UI/UX design, accessibility, form validation, local storage
+The application features advanced glassmorphism styling, scroll-driven micro-animations, real-time client-side form validation, and complete local state persistence via browser storage. It showcases a premium user interface designed to match modern software industry standards.
 
 ---
 
-## �🚀 Key Functional Features
+## 🖼️ Visual Preview
 
-### 1. 🌓 Dual Theme Controller (Light / Dark Mode)
-- Default Obsidian Dark mode with Cyan/Indigo gradients.
-- High-contrast Soft Slate Light mode.
-- System color preference detection with auto-matching.
-- State persistence using browser `localStorage` to prevent flashes of unstyled theme layouts on page reloads.
+Here are screenshots showing the layout and responsiveness of each portfolio section:
 
-### 2. 📸 Custom Profile Photo Editor (WebRTC & File Explorer)
-- **Browse Files:** Uploads standard local images (JPG, PNG, WebP, etc.) using `FileReader` API.
-- **WebRTC Camera Capture:** Opens an inline video stream container using the device camera (`getUserMedia`), showing a mirrored preview for capturing profile pictures on the fly.
-- **Native Mobile Fallback:** Automatically falls back to native device camera prompts (`capture="user"`) if browser camera permissions are blocked.
-- **Persistence:** Encodes photo selections to base64 Data URLs and saves them directly to `localStorage` for complete browser persistence. Includes a **Remove (X)** action button to restore the default SVG developer avatar.
-
-### 3. 📄 Functional CV / Resume Customizer
-- Let's users upload a custom PDF CV via the upload trigger next to the download button.
-- Converts the custom PDF into base64 and saves it to `localStorage`.
-- Dynamically updates all download links (in the hero action and sitemap footer) to compile and download the newly uploaded PDF instead of the placeholder `assets/resume.pdf`.
-- Shows a green **"Custom CV"** indicator badge when active and supports a **Reset** button to restore defaults.
-
-### 4. 🎛️ Interactive Project & Skill Filtering
-- Chip filters allow users to sort skills (All, Front-End, Back-End, Database, Tools) and academic projects (All, Desktop Java, Web PHP) with smooth opacity scaling transitions.
-
-### 5. 📧 Accessible Form Validation & Toast Alerts
-- Custom client-side validation check (Name length, email formatting regex, subject length, and message details).
-- Real-time inline error labeling for accessibility.
-- Styled floating success and error toast notification popups.
+- **Home / Hero**: ![Home Section Preview](./assets/home.png)
+- **About Me**: ![About Me Section Preview](./assets/about.png)
+- **Skills**: ![Skills Section Preview](./assets/skill.png)
+- **Projects**: ![Projects Section Preview](./assets/project.png)
+- **Education**: ![Education Section Preview](./assets/education.png)
+- **Contact**: ![Contact Section Preview](./assets/contact.png)
 
 ---
 
@@ -63,13 +35,18 @@ portfolio/
 │   ├── responsive.css     # Responsive viewport layout breakpoints (Desktop -> Mobile)
 │   └── animations.css     # Cursor blinks, floating blobs, scroll triggers keyframes
 ├── js/
-│   ├── main.js            # General listeners, validation, filters, and WebRTC uploads
+│   ├── main.js            # General listeners, validation, filters, and animations
 │   ├── theme.js           # Theme switching controller and localStorage handler
 │   ├── typing.js          # Cursor TypeWriter class cycles for hero headers
 │   └── animation.js       # Viewport observer, statistics counters, progress bars
 └── assets/
-    ├── resume.pdf         # Default placeholder PDF CV
-    ├── images/            # Project-related image assets
+    ├── profile.png        # Developer profile photograph
+    ├── home.png           # Home / Hero section preview
+    ├── about.png          # About Me section preview
+    ├── skill.png          # Skills section preview
+    ├── project.png        # Projects section preview
+    ├── education.png      # Education section preview
+    ├── contact.png        # Contact section preview
     ├── icons/             # Optional vector assets directory (empty; SVGs are inline)
     └── fonts/             # Local typography fonts (falls back to Google Fonts CDN)
 ```
@@ -103,36 +80,18 @@ The portfolio showcases two principal academic projects developed during the dev
   * Background: Creamy Soft Slate (`#f8fafc` to `#f1f5f9`)
   * Container: Translucent White Glass (`rgba(255, 255, 255, 0.75)`)
   * Accent: Indigo (`#4f46e5`) and Violet (`#7c3aed`)
-* **Accessibility Standards:** High-contrast text configurations, visible keyboard focus indicators, explicit ARIA labels on controls, semantic landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`), and accessible form controls.
+* **Accessibility Standards:** High-contrast text, visible keyboard focus indicators, ARIA labels on controls, semantic landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`), and accessible form controls.
 
 ---
 
 ## ⚙️ How to Run the Project
 
-Since the project uses purely native client-side files, it can be viewed by opening `index.html` directly in a browser. However, to run it using a local server environment (which prevents CORS warnings and enables smooth WebRTC device queries), follow these options inside VS Code:
+Since the project uses purely native client-side files, open `index.html` directly in a browser. For a local server environment (prevents CORS warnings), use the VS Code **Live Server** extension:
 
-### Option A: Using the VS Code "Live Server" Extension
-1. Open the directory `portfolio/` in VS Code.
+1. Open the `portfolio/` directory in VS Code.
 2. Install the **Live Server** extension (by Ritwick Dey).
-3. Right-click index.html and select **Open with Live Server**.
+3. Right-click `index.html` and select **Open with Live Server**.
 4. The site will launch on `http://127.0.0.1:5500`.
-
-### Option B: Using the Integrated VS Code Terminal
-Open the VS Code terminal (`Ctrl + ~`) and start a server:
-
-* **With Python:**
-  ```bash
-  python -m http.server 8000
-  ```
-  Navigate to `http://localhost:8000`.
-
-* **With Node / npm:**
-  ```bash
-  npx http-server ./ -p 8000
-  ```
-  Navigate to `http://localhost:8000`.
-
----
 
 ---
 
@@ -140,9 +99,7 @@ Open the VS Code terminal (`Ctrl + ~`) and start a server:
 
 **Fsha Mekonen**
 
-Information Technology Student
-
-Aksum University
+Information Technology Student — Aksum University
 
 ## Contact
 
